@@ -1,0 +1,54 @@
+runtime: php82
+
+# Optionally specify a PHP version and operating system
+runtime_config:
+  php_version: 8.2
+  operating_system: "ubuntu22"
+
+# Define environment variables if needed (e.g., database connection details)
+# env_variables:
+#   DATABASE_URL: "postgres://..."
+
+# Configure static files
+# static_dir: static
+
+# Define routes for your dynamic pages
+handlers:
+  # - url: /careers
+  #   script: careers.php
+  # - url: /contact
+  #   script: contactme.php
+
+  - url: /js
+    static_dir: js
+
+  - url: /css
+    static_dir: css
+
+  - url: /lib
+    static_dir: lib
+
+  - url: /images
+    static_dir: images
+  
+  - url: /lang
+    static_dir: lang
+
+  # - url: .*
+  #   static_files: index.html
+
+# Optionally configure automatic scaling
+# automatic_scaling:
+#   min_num_instances: 1
+#   max_num_instances: 5
+#   cool_down_period_sec: 180
+#   cpu_utilization:
+#     target_utilization: 0.8
+
+# Optionally configure manual scaling
+# manual_scaling:
+#   instances: 3
+
+# Include any additional configuration as needed
+
+# ...

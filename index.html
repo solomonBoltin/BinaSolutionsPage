@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bina Solutions</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/Bina Solutions-logos_transparent.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/Bina Solutions-logos_white.png" alt=""></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" data-key="navbar-home">home</a></li>
+                <li><a href="#about" data-key="navbar-about">about</a></li>
+                <li><a href="#service" data-key="navbar-services">services</a></li>
+                <li><a href="#portfolio" data-key="navbar-portfolio">portfolio</a></li>
+                <!-- <li><a href="careers.html" >career</a></li>  -->
+                <li><a href="#contact" data-key="navbar-contact">contact</a></li>
+                <li><a href="#faq" data-key="navbar-faq">FAQ</a></li>
+                <!-- language switcher (en/he) displaying the diffrent flag (from https://fontawesomeicons.com/lib/svg/israel-flag.svg)and switching on click-->
+                <li><a><img class="navbar-lang" alt="language" style="width: 30px; height: 30px;"
+                            onclick="tuggleLanguage()"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1 data-key="main-title">Your bridge to a smarter future.</h1>
+        <h2 data-key="main-subtitle">Harnest software to innovate, adapt and thrive in the changing world.</h2>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h1 class="heading" data-key="about-us-text">about us</h1>
+        <div class="row">
+            <div class="content">
+                <h3 data-key="about-us-title">More then a software company</h3>
+                <p data-key="about-us-subtitle">We are a nimble software development company specializing in <b>crafting
+                        tailored solutions that
+                        empower your business</b>.
+                    Leveraging our expertise in cutting-edge technologies like <b>AI and cloud computing</b>, we help
+                    you overcome today's industrial and digital challenges and gain a competitive edge.</p>
+                <a href="#"><button class="btn" data-key="read-more-text">Read More</button></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-sm-12" id="service">
+                    <h1 data-key="our-services-text">Our Services</h1>
+                    <p data-key="our-services-subtitle">Leveraging our deep expertise and knowledge in this field, we
+                        tailor the perfect solution to your
+                        unique needs, whether it's finding the best existing option or crafting a bespoke solution from
+                        scratch.</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-code"></i></span>
+                        <h6 data-key="custom-tools-and-scraping-service-text">Custom Tools & Web Scraping</h6>
+                        <p data-key="custom-tools-and-scraping-service-info">Need automation solutions? Creativity,
+                            efficiency, and professionalism drive us to craft the perfect fit for your specific needs.
+                            We offer expertise in custom tool development and web scraping for various workflows and
+                            data acquisition tasks.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-laptop"></i></span>
+                        <h6 data-key="full-stock-dev-service-text">Full-Stack Development</h6>
+                        <p data-key="full-stock-dev-service-info">From design to deployment and beyond, we manage the
+                            entire process for Android, iOS, and web development. Leveraging Kotlin, Swift, React, and a
+                            multi-platform codebase approach, we guarantee maximum productivity and stability for your
+                            cross-platform apps.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_three"><i class="fas fa-brain"></i></span>
+                        <h6 data-key="ai-and-data-service-text">AI & Data Processing</h6>
+                        <p data-key="ai-and-data-service-info">Supercharge your business with AI! We build custom
+                            solutions or modify existing technologies to automate tasks, optimize costs, and enhance
+                            efficiency. Let our expertise in data processing and AI implementation empower your
+                            operations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-wordpress"></i></span>
+                        <h6 data-key="wordpress-service-text">WordPress Unleashed</h6>
+                        <p data-key="wordpress-service-info">No limits. Custom plugins & tools built on our WordPress &
+                            WooCommerce mastery. Elevate your online store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <section class="counters">
+        <div class="container">
+            <div>
+                <i class="fas fa-code fa-4x"></i>
+                <div class="counter" data-target="35600">0</div>
+                <h3 data-key="code-lines-text">Code Lines</h3>
+            </div>
+            <div>
+                <i class="far fa-clock fa-4x"></i>
+                <div class="counter" data-target="2700">0</div>
+                <h3 data-key="working hours-text">Working Hours</h3>
+            </div>
+            <div>
+                <i class="fas fa-coffee fa-4x"></i>
+                <div class="counter" data-target="480">0</div>
+                <h3 data-key="coffee-cups-text">Coffee Cups</h3>
+            </div>
+            <div>
+                <i class="fas fa-award fa-4x"></i>
+                <div class="counter" data-target="120">0</div>
+                <h3 data-key="awards-text">Awards Received</h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-head-1 col-sm-12" style="text-align: center;">
+                    <h4 data-key="our-projects-text" style="margin-top: -5rem;" id="portfolio">
+                        <span>Our</span> Projects
+                    </h4>
+                    <p data-key="our-projects-subtitle">
+                        By leveraging cutting-edge approaches like event-driven microservices, automated DevOps
+                        pipelines, and a multiplatform shared codebase, we consistently deliver solutions that meet and
+                        surpass international standards.
+                        Our automated code processing further elevates our efficiency and ensures your projects always
+                        reach optimal quality.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-user-circle"></i></span>
+                        <h6 data-key="photo-sync-text">Photo Sync</h6>
+                        <p data-key="photo-sync-info">A platform for photographers to share their photos with the
+                            photographed people using facial recognition technology.
+                            <br><br><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-television"></i></span>
+                        <h6 data-key="telegram-tv-text">Telegram TV</h6>
+                        <p data-key="telegram-tv-info">A custom version of Telegram developed for Android TV, with a UI
+                            that prioritizes media browsing over messaging.
+                            <br><br><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-users"></i></span>
+                        <h6 data-key="mykey-text">Mykey social networks</h6>
+                        <p data-key="mykey-info">
+                            We played a significant role in rebuilding the Mykey social network backend using a
+                            microservices architecture with cutting-edge technologies.
+                            <br><br><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="communicate">
+        <h3 data-key="contact-us-title">Feel free to contact us.</h3>
+        <p data-key="contact-us-subtitle">Together will create a better world</p>
+        <a href="#contact"><button data-key="contact-us-btn" class="btn">Contact Now</button></a>
+    </div>
+    <div class="clients general-crousel-section mt-100">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="our-clients-title">Our Clients</h2>
+                <p data-key="our-clients-subtitle">
+                    Develop your future for a better tomorow
+                </p>
+            </div>
+            <div class="owl-carousel general-crousel-div clients-carousel">
+                <div class="logo-image">
+                    <img src="./images/MykeyLogo.webp" alt="Mykey social network Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="./images/BolParketLogoT.webp" alt="Bool Parket Logo" class="logo-image">
+                </div>
+                <div class="logo-image">
+                    <img src="./images/AliyoopLogo.png" alt="Aliyoop Logo" class="logo-image">
+                </div>
+                <div class="logo-image">
+                    <img src="./images/DerechTzadikimLogo.webp" alt="Derech Tzadikim Logo" class="logo-image">
+                </div>
+                <div class="logo-image">
+                    <img src="./images/NatalieBorisLogo.jpeg" alt="Natalie & Boris Logo">
+                </div>
+                <div>
+                    <img src="./images/PituachLogoT.webp" alt="Pituach Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+
+    <section id="contact" class="contact">
+        <h1 data-key="get-in-touch-text" class="heading">get in touch</h1>
+    </section>
+
+    <div class="contact-in">
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.7890750126166!2d34.8933336!3d32.074953199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d35d867519e6f%3A0xdf9ff5790a889182!2sAssaf%20Simhoni%20St%2019%2C%20Petah%20Tikva!5e0!3m2!1sen!2sil!4v1707314900020!5m2!1sen!2sil"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" onsubmit="createWhatsAppLink1()">
+                <input data-key="name-text" type="text" name="name" placeholder="Name" class="contact-form-name"
+                    required>
+                <input data-key="contact-numer-text" type="tel" id="phone" name="phone" pattern="[0-9]{10}" required
+                    placeholder="Contact number" maxlength="10" class="contact-form-phone">
+                <input data-key="email-text" type="email" name="email" placeholder="Email" class="contact-form-email"
+                    required>
+                <textarea data-key="your-message-text" placeholder="Your Message" name="message"
+                    class="contact-form-txtarea" required></textarea>
+                <input data-key="submit-text" type="submit" value="Submit" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+    </div>
+
+    <section class="faq">
+        <h1 data-key="faq-text" class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">FAQ</h1>
+        <div class="row">
+            <div class="accordion-container">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3 data-key="cost-question">How much will it cost?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p data-key="cost-answer">To get a better idea of the cost of what you want to build, give us a
+                            quick phone call. We’ll
+                            ask you a few questions about the nature of the site, what sort of interactivity the site
+                            will have, your graphic design needs, etc.
+                            Then we’ll be able to give you a ballpark figure.
+                            If you’re still interested, we’ll come to your place of business and come up with a firm
+                            quote.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3 data-key="duration-question">How long it takes to design?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p data-key="duration-answer">The time limit of any assignment is normally dictated by the
+                            client. If you have any time
+                            limit in mind we will attempt to assemble it for you.
+                            The main general delay in the making of a website is waiting for the content of the pages to
+                            be sent to us by the client.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3 data-key="integration-question">How do I associate with IT Company?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p data-key="integration-answer">The process begins when you contact us with your requirements.
+                            We analyze your requirements
+                            and respond to you.
+                            On the basis of the further discussion, you can choose an engagement model that suits you
+                            the best.
+                            After that, we begin the process of development.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3 data-key="enhancement-question">Can you help my current site look more professional?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p data-key="enhancement-answer">Yes. Give us your requirements and we have experienced
+                            expertise to help you give a
+                            new professional look that really wonders!</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3 data-key="payment-question">When do I pay?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p data-key="payment-answer">For most projects, equal payments are made at the start, midway,
+                            and the end of the project,
+                            but we can work with you to set up a schedule that meets your needs.
+                            We understand that this is a big investment and want to help you budget for the expense in
+                            whatever way possible.
+                            We accept checks, PayPal, and all major credit cards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="technologies general-crousel-section mt-100">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="our-clients-title">Some of the technologies we use</h2>
+                <p data-key="our-clients-subtitle">Embracing technologies and using them right is what makes the diffrence</p>
+            </div>
+            <div class="owl-carousel general-crousel-div technologies-carousel">
+                <!-- https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Workspace_Logo.svg
+https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg
+https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png
+https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Apps_Script.svg
+https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg
+https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg
+https://upload.wikimedia.org/wikipedia/commons/b/ba/Confluent_Logo.png
+https://brandslogos.com/wp-content/uploads/images/large/intellij-idea-logo.png
+https://brandslogos.com/wp-content/uploads/images/large/kotlin-logo-vector-1.svg
+https://brandslogos.com/wp-content/uploads/images/large/javascript-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/react-native-firebase-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/telegram-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/swift-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/python-logo-vector-1.svg
+https://brandslogos.com/wp-content/uploads/images/large/java-logo-vector-2.svg
+https://brandslogos.com/wp-content/uploads/images/large/spring-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/django-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/kafka-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/postgresql-inc-logo-vector.svg
+https://brandslogos.com/wp-content/uploads/images/large/figma-logo-vector.svg -->
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Workspace_Logo.svg"
+                        alt="Google Workspace Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg"
+                        alt="Android Studio icon">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png"
+                        alt="Selenium Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Apps_Script.svg"
+                        alt="Google Apps Script">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+                         alt="OpenAI Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg"
+                         alt="Google Cloud Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Confluent_Logo.png"
+                         alt="Confluent Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/intellij-idea-logo.png"
+                         alt="IntelliJ IDEA Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/kotlin-logo-vector-1.svg"
+                         alt="Kotlin Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/javascript-logo-vector.svg"
+                         alt="JavaScript Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/react-native-firebase-logo-vector.svg"
+                         alt="React Native Firebase Logo">
+                </div>
+                <div class="logo-image">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/telegram-logo-vector.svg"
+                         alt="Telegram Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4 data-key="about-us-text">About Us</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-home" href="#">Home</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-about" href="#about">About
+                                    us</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="our-services-text"
+                                    href="#service">Our services</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-terms-and-conditions"
+                                    href="#">Terms & condition</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-privacy-policy"
+                                    href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4 data-key="useful-links-text">Useful Links</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-portfolio"
+                                    href="#portfolio">Portfolio</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-contact"
+                                    href="#contact">Contact</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a data-key="navbar-faq" href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                        <h4 data-key="contact-us-section-text">Contact Us</h4>
+                        <div class="contact-details">
+                            <p data-key="contact-details">
+                                Assaf simchoni 19<br>
+                                Petach Tikva<br>
+                                Israel<br>
+                            </p>
+                            <p>
+                                <strong data-key="contact-phone-text">Phone:</strong> +972583100333<br>
+                                <strong data-key="contact-email-text">Email:</strong> bina-solutions@gmail.com<br>
+                            </p>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                            <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="ion-logo-googleplus"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4 data-key="subscription-text">Subscription</h4>
+                        <p data-key="subscription-subtitle">With Our Skills Put Together, You Get An Ensemble Capable Of
+                            Doing Anything And Everything
+                            Your Brand Needs. Subscribe Here To Get Our Latest Updates.</p>
+                        <form action="" method="post">
+                            <input data-key="email-text" type="email" name="email"><input data-key="subscribe-text" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div data-key="copyright-details" class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                    Copyright &copy; 2021 Bina Solutions Company Website. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
