@@ -1386,3 +1386,9 @@ body{
 .general-crousel-div {
     direction: ltr;
 }
+
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
