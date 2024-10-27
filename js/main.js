@@ -84,31 +84,16 @@ function initializeLanguage() {
   if(language === 'he') {
     document.dir = 'rtl'
 
-    // define and inject custom CSS for RTL languages
-    const styleElement = document.createElement('style');
-    styleElement.type = 'text/css';
-    styleElement.textContent = `
-      *{
-        font-family: 'Alef', 'Poppins', sans-serif;
+    // load the style from /lang/he_style.css
+    fetch('lang/style_he.css')
+      .then(response => response.text())
+      .then(data => {
+        const styleElement = document.createElement('style');
+        styleElement.type = 'text/css';
+        styleElement.textContent = data;
+        document.head.appendChild(styleElement);
       }
-      .footer {
-        text-align: right;
-      }
-      .header .navbar {
-        direction: rtl;
-      }
-      .faq .row .accordion-container {
-        text-align: right;
-      }
-      .contact-form-phone {
-        direction: rtl;
-      }
-
-      .ion-ios-arrow-forward:before {
-        transform: scaleX(-1);
-      }
-    `;
-    document.head.appendChild(styleElement);
+    );
     
     // set flag to english
     document.querySelector('.navbar-lang').setAttribute('src', 'https://fontawesomeicons.com/lib/svg/liberia-flag.svg')

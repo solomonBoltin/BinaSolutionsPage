@@ -1,0 +1,66 @@
+.footer {
+    text-align: right;
+}
+
+.header .navbar {
+    direction: rtl;
+}
+
+.faq .row .accordion-container {
+    text-align: right;
+}
+
+.contact-form-phone {
+    direction: rtl;
+}
+
+.ion-ios-arrow-forward:before {
+    transform: scaleX(-1);
+}
+
+/* data-key - about-us-title css  */
+[data-key="about-us-title"] {
+    /* bold, spacing  */
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+
+/* data-key custom-tools-and-scraping-service-text */
+.service-block h6 {
+    /* bold, spacing  */
+    font-weight: bold;
+}
+
+.service-block .icon {
+    display: none;
+}
+
+
+
+
+/* .typing-loop {
+
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 6s steps(12) 1s forwards, blink-cursor 0.5s step-end 4 alternate;
+
+  } */
+/*   
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  @keyframes loop {
+    0% { width: 0; }
+    50% { width: 100%; }
+    100% { width: 0; }
+  }
+   */
